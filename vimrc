@@ -3,6 +3,7 @@ filetype plugin on
 filetype indent on
 set shiftwidth=4
 set tabstop=4
+set smarttab
 set expandtab
 colors molokai
 syntax on
@@ -11,6 +12,7 @@ set nu
 set ic
 set cindent
 set cinoptions=g-1
+set cino=N-s
 set list
 set listchars=tab:\ \ ,trail:~
 
