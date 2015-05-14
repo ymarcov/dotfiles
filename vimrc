@@ -5,6 +5,7 @@ set shiftwidth=4
 set tabstop=4
 set smarttab
 set expandtab
+set modeline
 colors molokai
 syntax on
 set noswapfile
