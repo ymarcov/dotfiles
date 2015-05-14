@@ -3,10 +3,17 @@
 STATE_FILE=$HOME/.redshift_curr_temp
 CUR_TEMP=$(<$STATE_FILE)
 
-if [[ $1 == inc ]]; then
+MIN_TEMP=2700
+MAX_TEMP=6500
+
+if [[ $1 == rst ]]; then
+    NEW_TEMP=$MAX_TEMP
+elif [[ $1 == inc ]]; then
     NEW_TEMP=$(($CUR_TEMP + 250))
+    [[ $NEW_TEMP > $MAX_TEMP ]] && NEW_TEMP=$MAX_TEMP
 elif [[ $1 == dec ]]; then
     NEW_TEMP=$(($CUR_TEMP - 250))
+    [[ $NEW_TEMP < $MIN_TEMP ]] && NEW_TEMP=$MIN_TEMP
 fi
 
 echo $NEW_TEMP > $STATE_FILE
