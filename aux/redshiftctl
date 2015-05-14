@@ -1,0 +1,13 @@
+#!/bin/bash
+
+STATE_FILE=$HOME/.redshift_curr_temp
+CUR_TEMP=$(<$STATE_FILE)
+
+if [[ $1 == inc ]]; then
+    NEW_TEMP=$(($CUR_TEMP + 250))
+elif [[ $1 == dec ]]; then
+    NEW_TEMP=$(($CUR_TEMP - 250))
+fi
+
+echo $NEW_TEMP > $STATE_FILE
+redshift -O $NEW_TEMP
