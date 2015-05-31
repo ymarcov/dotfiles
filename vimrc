@@ -6,7 +6,6 @@ set tabstop=4
 set smarttab
 set expandtab
 set modeline
-colors molokai
 syntax on
 set noswapfile
 set nu
@@ -16,6 +15,8 @@ set cinoptions=g-1
 set cino=N-s
 set list
 set listchars=tab:\ \ ,trail:~
+set background=dark
+colors heroku-terminal
 
 " fix C+c in SQL files
 let g:ftplugin_sql_omni_key = '<C-j>'
