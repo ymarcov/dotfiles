@@ -16,6 +16,8 @@ set cino=N-s
 set list
 set listchars=tab:\ \ ,trail:~
 set background=dark
+set cursorline
+set cursorcolumn
 colors heroku-terminal
 
 " fix C+c in SQL files
