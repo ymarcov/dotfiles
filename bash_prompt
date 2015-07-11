@@ -1,0 +1,22 @@
+# vim: set ft=sh:
+
+getpwd_d() {
+    res=$(dirname "$(pwd | sed "s!$HOME!~!")")
+    if [[ $res != . ]]; then
+        if [[ $(pwd) != / ]]; then
+            echo -n $res
+            [[ $res == / ]] || echo -n /
+        fi
+    fi
+}
+
+getpwd_b() {
+    res=$(basename "$(pwd | sed "s!$HOME!~!")")
+    echo $res
+}
+
+on_prompt() {
+    export PS1="\[\033[01;34m\]$(getpwd_d)\[\033[01;32m\]$(getpwd_b)\[\033[01;37m\]\$\[\033[01;00m\] "
+}
+
+PROMPT_COMMAND=on_prompt
