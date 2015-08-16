@@ -76,7 +76,7 @@ else
 	hi Cursor guibg=#f39812 ctermbg=172
 	hi CursorColumn guibg=#23343d ctermbg=235
 	hi CursorIM guibg=#4a9f68 ctermbg=65
-	hi CursorLine guibg=#23343d gui=none ctermbg=24 cterm=none
+	hi CursorLine guibg=#23343d gui=none ctermbg=235 cterm=none
 	hi CursorLineNr guifg=#7c8884 guibg=#23343d gui=none ctermfg=66 ctermbg=235
 	hi DiffAdd guibg=#013a06 gui=none ctermfg=71 ctermbg=16
 	hi DiffChange guibg=#4a4707 ctermfg=178 ctermbg=235
