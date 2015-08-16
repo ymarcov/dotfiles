@@ -18,7 +18,6 @@ set listchars=tab:\ \ ,trail:~
 set background=dark
 set cursorline
 set cursorcolumn
-set bg=light
 colors scheakur
 
 " fix C+c in SQL files
