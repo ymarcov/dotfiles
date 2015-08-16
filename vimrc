@@ -18,7 +18,8 @@ set listchars=tab:\ \ ,trail:~
 set background=dark
 set cursorline
 set cursorcolumn
-colors heroku-terminal
+set bg=light
+colors scheakur
 
 " fix C+c in SQL files
 let g:ftplugin_sql_omni_key = '<C-j>'
