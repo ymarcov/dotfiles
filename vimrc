@@ -19,7 +19,7 @@ set background=dark
 set cursorline
 set cursorcolumn
 set bg=light
-colors scheakur
+colors molokai
 
 " fix C+c in SQL files
 let g:ftplugin_sql_omni_key = '<C-j>'
