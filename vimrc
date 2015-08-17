@@ -25,3 +25,4 @@ colors scheakur
 let g:ftplugin_sql_omni_key = '<C-j>'
 set hls
 set ls=2 " always show file name
+set stl+=%F
