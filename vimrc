@@ -1,7 +1,7 @@
 execute pathogen#infect()
 
 let g:airline#extensions#tabline#enabled = 1
-let g:airline_theme = "tomorrow"
+let g:airline_theme = "powerlineish"
 let g:airline_powerline_fonts = 1
 
 set nocompatible
@@ -25,7 +25,7 @@ set background=dark
 set cursorline
 set cursorcolumn
 set bg=light
-colors molokai
+colors heroku-terminal
 
 " fix C+c in SQL files
 let g:ftplugin_sql_omni_key = '<C-j>'
