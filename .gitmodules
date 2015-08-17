@@ -1,0 +1,6 @@
+[submodule "vim-pathogen"]
+	path = vim-pathogen
+	url = https://github.com/tpope/vim-pathogen
+[submodule "vim-airline"]
+	path = vim-airline
+	url = http://github.com/bling/vim-airline

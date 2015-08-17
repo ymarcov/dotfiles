@@ -2,10 +2,22 @@
 
 mkdir -p ~/.i3
 
-echo "Backing up old files..."
-mv -f ~/.vimrc{,.old}
-mv -f ~/.i3/config{,.old}
+cmd=mv
+
+if [[ $1 == -r ]]; then
+    echo "Removing old files..."
+    cmd=rm
+else
+    echo "Backing up old files..."
+fi
+
+$cmd -vf ~/.vim{,.old}
+$cmd -vf ~/.vimrc{,.old}
+$cmd -vf ~/.i3/config{,.old}
 
 echo "Creating links..."
-ln -sv $PWD/vimrc ~/.vimrc
-ln -sv $PWD/i3.config ~/.i3/config
+ln -svf $PWD/vim ~/.vim
+ln -svf $PWD/vim-pathogen/autoload/pathogen.vim $PWD/vim/autoload/
+ln -svf $PWD/vim-airline $PWD/vim/bundle/
+ln -svf $PWD/vimrc ~/.vimrc
+ln -svf $PWD/i3.config ~/.i3/config
