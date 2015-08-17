@@ -1,3 +1,9 @@
+execute pathogen#infect()
+
+let g:airline#extensions#tabline#enabled = 1
+let g:airline_theme = "tomorrow"
+let g:airline_powerline_fonts = 1
+
 set nocompatible
 filetype plugin on
 filetype indent on
