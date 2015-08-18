@@ -7,3 +7,6 @@
 [submodule "CamelCaseMotion"]
 	path = CamelCaseMotion
 	url = http://github.com/bkad/CamelCaseMotion
+[submodule "argtextobj.vim"]
+	path = argtextobj.vim
+	url = http://github.com/vim-scripts/argtextobj.vim
