@@ -23,3 +23,10 @@ colors scheakur
 " fix C+c in SQL files
 let g:ftplugin_sql_omni_key = '<C-j>'
 set hls
+
+" Reselect visual block aftet indent/outdent
+vnoremap < <gv
+vnoremap > >gv
+
+" make Y behave like other capitals
+nnoremap Y y$
