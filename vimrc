@@ -36,3 +36,15 @@ set stl+=%F
 " next/previous buffer
 map <C-n> :bp<CR>
 map <C-,> :bn<CR>
+
+function LightTheme()
+    set bg=light
+    colors github
+    AirlineTheme silver
+endfunction
+
+function DarkTheme()
+    set bg=dark
+    colors heroku-terminal
+    AirlineTheme powerlineish
+endfunction
