@@ -35,5 +35,3 @@ vnoremap > >gv
 
 " make Y behave like other capitals
 nnoremap Y y$
-
-execute pathogen#infect()
