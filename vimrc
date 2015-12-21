@@ -18,7 +18,12 @@ set listchars=tab:\ \ ,trail:~
 set background=dark
 set cursorline
 set cursorcolumn
-colors scheakur
+colors vividchalk
+
+set path=.,**
+set wildmenu
+set wildignore+=*.o,*.a,*.so
+set wildignorecase
 
 " fix C+c in SQL files
 let g:ftplugin_sql_omni_key = '<C-j>'
