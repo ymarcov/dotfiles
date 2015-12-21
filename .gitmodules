@@ -10,3 +10,6 @@
 [submodule "argtextobj.vim"]
 	path = argtextobj.vim
 	url = http://github.com/vim-scripts/argtextobj.vim
+[submodule "ctrlp.vim"]
+	path = ctrlp.vim
+	url = http://github.com/ctrlpvim/ctrlp.vim

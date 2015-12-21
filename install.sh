@@ -23,5 +23,6 @@ ln -svf $PWD/CamelCaseMotion/autoload/camelcasemotion.vim $PWD/vim/autoload
 ln -svf $PWD/CamelCaseMotion/autoload/camelcasemotion.vim $PWD/vim/autoload
 ln -svf $PWD/CamelCaseMotion/plugin/camelcasemotion.vim $PWD/vim/plugin
 ln -svf $PWD/argtextobj.vim/plugin/argtextobj.vim $PWD/vim/plugin/
+ln -svf $PWD/ctrlp.vim $PWD/vim/bundle/
 ln -svf $PWD/vimrc ~/.vimrc
 ln -svf $PWD/i3.config ~/.i3/config

@@ -6,3 +6,4 @@ vim/autoload/camelcasemotion.vim
 vim/plugin/camelcasemotion.vim
 vim/doc/camelcasemotion.vim
 vim/bundle/vim-airline
+vim/bundle/ctrlp.vim
