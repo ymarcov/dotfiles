@@ -7,3 +7,6 @@
 [submodule "vim-twig"]
 	path = vim-twig
 	url = http://github.com/evidens/vim-twig
+[submodule "fonts"]
+	path = fonts
+	url = http://github.com/powerline/fonts

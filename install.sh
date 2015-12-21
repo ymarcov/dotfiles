@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -e
+
 mkdir -p ~/.i3
 
 cmd=mv
@@ -22,3 +24,5 @@ ln -svf $PWD/vim-airline $PWD/vim/bundle/
 ln -svf $PWD/vim-twig $PWD/vim/bundle/
 ln -svf $PWD/vimrc ~/.vimrc
 ln -svf $PWD/i3.config ~/.i3/config
+
+fonts/install.sh
