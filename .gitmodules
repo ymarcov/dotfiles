@@ -10,3 +10,6 @@
 [submodule "fonts"]
 	path = fonts
 	url = http://github.com/powerline/fonts
+[submodule "ctrlp.vim"]
+	path = ctrlp.vim
+	url = http://github.com/ctrlpvim/ctrlp.vim
