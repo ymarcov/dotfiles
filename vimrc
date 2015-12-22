@@ -34,8 +34,12 @@ set ls=2 " always show file name
 set stl+=%F
 
 " next/previous buffer
+map <C-m> :bn<CR>
 map <C-n> :bp<CR>
-map <C-,> :bn<CR>
+
+" CtrlP
+let g:ctrlp_max_files=0
+let g:ctrlp_max_depth=40
 
 function LightTheme()
     set bg=light
