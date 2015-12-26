@@ -12,6 +12,7 @@ set tabstop=4
 set smarttab
 set expandtab
 set modeline
+set hidden
 syntax on
 set noswapfile
 set nu
@@ -31,6 +32,10 @@ set wildmenu
 set wildignore+=*.o,*.a,*.so
 set wildignorecase
 
+" CtrlP
+let g:ctrlp_max_files=0
+let g:ctrlp_max_depth=40
+
 " fix C+c in SQL files
 let g:ftplugin_sql_omni_key = '<C-j>'
 set hls
@@ -41,3 +46,7 @@ vnoremap > >gv
 
 " make Y behave like other capitals
 nnoremap Y y$
+
+" Buffer switching
+nnoremap <C-n> :bp<CR>
+nnoremap <C-m> :bn<CR>
