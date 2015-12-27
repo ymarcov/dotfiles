@@ -12,6 +12,7 @@ set tabstop=4
 set smarttab
 set expandtab
 set modeline
+set hidden
 syntax on
 set noswapfile
 set nu
