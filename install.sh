@@ -19,6 +19,10 @@ echo "Creating links..."
 ln -svf $PWD/vim ~/.vim
 ln -svf $PWD/vim-pathogen/autoload/pathogen.vim $PWD/vim/autoload/
 ln -svf $PWD/vim-airline $PWD/vim/bundle/
+ln -svf $PWD/tlib_vim $PWD/vim/bundle/
+ln -svf $PWD/vim-addon-mw-utils $PWD/vim/bundle/
+ln -svf $PWD/vim-snipmate $PWD/vim/bundle/
+ln -svf $PWD/vim-snippets $PWD/vim/bundle/
 ln -svf $PWD/vim-endwise $PWD/vim/bundle/
 ln -svf $PWD/CamelCaseMotion/autoload/camelcasemotion.vim $PWD/vim/autoload
 ln -svf $PWD/CamelCaseMotion/autoload/camelcasemotion.vim $PWD/vim/autoload
