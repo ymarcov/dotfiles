@@ -13,3 +13,6 @@
 [submodule "ctrlp.vim"]
 	path = ctrlp.vim
 	url = http://github.com/ctrlpvim/ctrlp.vim
+[submodule "vim-endwise"]
+	path = vim-endwise
+	url = http://github.com/tpope/vim-endwise.git
