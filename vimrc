@@ -18,8 +18,7 @@ set noswapfile
 set nu
 set ic
 set cindent
-set cinoptions=g-1
-set cino=N-s
+set cinoptions=N-s,g0
 set list
 set listchars=tab:\ \ ,trail:~
 set background=dark
