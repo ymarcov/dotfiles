@@ -1,6 +1,6 @@
 set bg=light
 colors mac_classic
-AirlineTheme base16
+AirlineTheme silver
 set guioptions -=m " no menubar
 set guioptions -=T " no toolbar
-set guifont=Ubuntu\ Mono\ derivative\ Powerline\ 12
+set guifont=Monaco\ for\ Powerline\ 10
