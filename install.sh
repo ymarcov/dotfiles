@@ -25,6 +25,7 @@ ln -svf $PWD/vim-addon-mw-utils $PWD/vim/bundle/
 ln -svf $PWD/vim-snipmate $PWD/vim/bundle/
 ln -svf $PWD/vim-snippets $PWD/vim/bundle/
 ln -svf $PWD/vim-endwise $PWD/vim/bundle/
+ln -svf $PWD/Conque-GDB $PWD/vim/bundle/
 ln -svf $PWD/CamelCaseMotion/autoload/camelcasemotion.vim $PWD/vim/autoload
 ln -svf $PWD/CamelCaseMotion/autoload/camelcasemotion.vim $PWD/vim/autoload
 ln -svf $PWD/CamelCaseMotion/plugin/camelcasemotion.vim $PWD/vim/plugin
@@ -33,4 +34,4 @@ ln -svf $PWD/ctrlp.vim $PWD/vim/bundle/
 ln -svf $PWD/vimrc ~/.vimrc
 ln -svf $PWD/gvimrc ~/.gvimrc
 ln -svf $PWD/i3.config ~/.i3/config
-ln -svg $PWD/fonts ~/.fonts
+ln -svf $PWD/fonts ~/.fonts

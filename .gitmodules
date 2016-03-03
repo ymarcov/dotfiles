@@ -28,3 +28,6 @@
 [submodule "vim-snippets"]
 	path = vim-snippets
 	url = http://github.com/honza/vim-snippets.git
+[submodule "Conque-GDB"]
+	path = Conque-GDB
+	url = http://github.com/vim-scripts/Conque-GDB
