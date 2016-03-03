@@ -36,6 +36,7 @@ set stl+=%F
 " next/previous buffer
 map <C-m> :bn<CR>
 map <C-n> :bp<CR>
+map <C-BS> :bdel<CR>
 
 " CtrlP
 let g:ctrlp_max_files=0
