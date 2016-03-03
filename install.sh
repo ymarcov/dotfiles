@@ -14,6 +14,7 @@ fi
 $cmd -vf ~/.vim{,.old}
 $cmd -vf ~/.vimrc{,.old}
 $cmd -vf ~/.i3/config{,.old}
+$cmd -vf ~/.fonts
 
 echo "Creating links..."
 ln -svf $PWD/vim ~/.vim
@@ -32,3 +33,4 @@ ln -svf $PWD/ctrlp.vim $PWD/vim/bundle/
 ln -svf $PWD/vimrc ~/.vimrc
 ln -svf $PWD/gvimrc ~/.gvimrc
 ln -svf $PWD/i3.config ~/.i3/config
+ln -svg $PWD/fonts ~/.fonts
