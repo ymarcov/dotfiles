@@ -24,6 +24,7 @@ ln -svf $PWD/vim-airline $PWD/vim/bundle/
 ln -svf $PWD/vim-twig $PWD/vim/bundle/
 ln -svf $PWD/ctrlp.vim $PWD/vim/bundle/
 ln -svf $PWD/vimrc ~/.vimrc
+ln -svf $PWD/gvimrc ~/.gvimrc
 ln -svf $PWD/i3.config ~/.i3/config
 
 fonts/install.sh
