@@ -4,4 +4,5 @@ vim/autoload/pathogen.vim
 vim/autoload/vim-airline
 vim/bundle/vim-airline
 vim/bundle/vim-twig
+vim/bundle/Conque-GDB
 vim/bundle/ctrlp.vim

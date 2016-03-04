@@ -13,3 +13,6 @@
 [submodule "ctrlp.vim"]
 	path = ctrlp.vim
 	url = http://github.com/ctrlpvim/ctrlp.vim
+[submodule "Conque-GDB"]
+	path = Conque-GDB
+	url = http://github.com/vim-scripts/Conque-GDB

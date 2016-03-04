@@ -22,6 +22,7 @@ ln -svf $PWD/vim ~/.vim
 ln -svf $PWD/vim-pathogen/autoload/pathogen.vim $PWD/vim/autoload/
 ln -svf $PWD/vim-airline $PWD/vim/bundle/
 ln -svf $PWD/vim-twig $PWD/vim/bundle/
+ln -svf $PWD/Conque-GDB $PWD/vim/bundle/
 ln -svf $PWD/ctrlp.vim $PWD/vim/bundle/
 ln -svf $PWD/vimrc ~/.vimrc
 ln -svf $PWD/gvimrc ~/.gvimrc
