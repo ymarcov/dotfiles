@@ -16,3 +16,6 @@
 [submodule "Conque-GDB"]
 	path = Conque-GDB
 	url = http://github.com/vim-scripts/Conque-GDB
+[submodule "vim-colors-solarized"]
+	path = vim-colors-solarized
+	url = http://github.com/altercation/vim-colors-solarized
