@@ -50,3 +50,4 @@ nnoremap Y y$
 " Buffer switching
 nnoremap <C-n> :bp<CR>
 nnoremap <C-m> :bn<CR>
+nnoremap <C-BS> :bdel<CR>
