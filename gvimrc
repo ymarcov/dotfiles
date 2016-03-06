@@ -1,9 +1,10 @@
 set bg=light
-colors mac_classic
+colors visualstudio
 AirlineTheme silver
 set guioptions -=m " no menubar
 set guioptions -=T " no toolbar
-set guifont=Powerline\ Consolas\ 12
+"set guifont=Powerline\ Consolas\ 12
+set guifont=Code\ New\ Roman\\,\ 12
 
 if executable('ag')
     set grepprg=ag\ --nogroup\ --nocolor
