@@ -11,6 +11,7 @@ else
     echo "Backing up old files..."
 fi
 
+$cmd -vf ~/.gitalias{,.old}
 $cmd -vf ~/.vim{,.old}
 $cmd -vf ~/.vimrc{,.old}
 $cmd -vf ~/.i3/config{,.old}
@@ -33,5 +34,6 @@ ln -svf $PWD/argtextobj.vim/plugin/argtextobj.vim $PWD/vim/plugin/
 ln -svf $PWD/ctrlp.vim $PWD/vim/bundle/
 ln -svf $PWD/vimrc ~/.vimrc
 ln -svf $PWD/gvimrc ~/.gvimrc
+ln -svf $PWD/gitalias ~/.gitalias
 ln -svf $PWD/i3.config ~/.i3/config
 ln -svf $PWD/fonts ~/.fonts
