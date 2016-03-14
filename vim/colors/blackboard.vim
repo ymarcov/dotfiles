@@ -14,7 +14,7 @@ endif
 let g:colors_name = 'blackboard'
 
 if has('gui_running')
-    hi Normal guifg=#eeeeee guibg=#090B18
+    hi Normal guifg=#eeeeee guibg=#060B18
     "hi Normal guifg=#eeeeee guibg=#000000
     hi Cursor guifg=Black guibg=Yellow
     hi CursorLine guibg=#030612
