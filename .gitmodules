@@ -31,3 +31,6 @@
 [submodule "Conque-GDB"]
 	path = Conque-GDB
 	url = http://github.com/vim-scripts/Conque-GDB
+[submodule "simple_bookmarks.vim"]
+	path = simple_bookmarks.vim
+	url = https://github.com/AndrewRadev/simple_bookmarks.vim
