@@ -34,3 +34,6 @@
 [submodule "simple_bookmarks.vim"]
 	path = simple_bookmarks.vim
 	url = https://github.com/AndrewRadev/simple_bookmarks.vim
+[submodule "typescript-vim"]
+	path = typescript-vim
+	url = https://github.com/leafgarland/typescript-vim.git
