@@ -38,6 +38,9 @@ map <C-m> :bn<CR>
 map <C-n> :bp<CR>
 map <C-BS> :bdel<CR>
 
+" pep8 stuff
+let g:autopep8_disable_show_diff=1
+
 " CtrlP
 let g:ctrlp_max_files=0
 let g:ctrlp_max_depth=40

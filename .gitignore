@@ -10,3 +10,4 @@ vim/bundle/ctrlp.vim
 vim/bundle/Conque-GDB
 vim/bundle/simple_bookmarks.vim
 vim/bundle/typescript-vim
+vim/bundle/vim-autopep8

@@ -37,3 +37,6 @@
 [submodule "typescript-vim"]
 	path = typescript-vim
 	url = https://github.com/leafgarland/typescript-vim.git
+[submodule "vim-autopep8"]
+	path = vim-autopep8
+	url = http://github.com/tell-k/vim-autopep8
