@@ -40,3 +40,6 @@
 [submodule "vim-autopep8"]
 	path = vim-autopep8
 	url = http://github.com/tell-k/vim-autopep8
+[submodule "github.vim"]
+	path = github.vim
+	url = https://github.com/albertorestifo/github.vim.git

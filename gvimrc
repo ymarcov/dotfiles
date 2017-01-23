@@ -1,6 +1,6 @@
 set bg=dark
-colors blackboard
-AirlineTheme behelit
+colors github
+AirlineTheme tomorrow
 set guioptions -=m " no menubar
 set guioptions -=T " no toolbar
 "set guifont=Powerline\ Consolas\ 12

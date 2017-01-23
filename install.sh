@@ -26,6 +26,7 @@ ln -svf $PWD/vim-addon-mw-utils $PWD/vim/bundle/
 ln -svf $PWD/vim-snipmate $PWD/vim/bundle/
 ln -svf $PWD/vim-snippets $PWD/vim/bundle/
 ln -svf $PWD/vim-endwise $PWD/vim/bundle/
+ln -svf $PWD/github.vim $PWD/vim/bundle/
 ln -svf $PWD/Conque-GDB $PWD/vim/bundle/
 ln -svf $PWD/CamelCaseMotion/autoload/camelcasemotion.vim $PWD/vim/autoload
 ln -svf $PWD/CamelCaseMotion/autoload/camelcasemotion.vim $PWD/vim/autoload
