@@ -7,7 +7,13 @@ set guioptions -=T " no toolbar
 "set guifont=Code\ New\ Roman\\,\ 12
 set guifont=Droid\ Sans\ Mono\ for\ Powerline\ 11
 
-hi CursorColumn guibg=#f8f8f8 ctermbg=15 gui=NONE cterm=NONE
+set lines=60 columns=150
+
+if &diff
+    set lines=70 columns=200
+endif
+
+highlight CursorColumn guibg=#f8f8f8 ctermbg=15 gui=NONE cterm=NONE
 highlight GitGutterAdd guifg=#00aa00
 highlight GitGutterChange guifg=#ff8c00
 highlight GitGutterDelete guifg=#ff0000
