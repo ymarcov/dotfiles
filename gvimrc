@@ -11,6 +11,7 @@ set lines=60 columns=150
 
 if &diff
     set lines=70 columns=200
+    colors visualstudio
 endif
 
 highlight CursorColumn guibg=#f8f8f8 ctermbg=15 gui=NONE cterm=NONE
