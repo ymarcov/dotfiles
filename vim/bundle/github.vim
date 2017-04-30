@@ -1,1 +1,1 @@
-/home/yam/Packages/dotfiles/github.vim/
+/home/yam/Packages/dotfiles/github.vim

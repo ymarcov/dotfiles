@@ -38,6 +38,7 @@ ln -svf $PWD/ctrlp.vim $PWD/vim/bundle/
 ln -svf $PWD/typescript-vim $PWD/vim/bundle/
 ln -svf $PWD/simple_bookmarks.vim $PWD/vim/bundle/
 ln -svf $PWD/vim-autopep8 $PWD/vim/bundle/
+ln -svf $PWD/vim-searchindex $PWD/vim/bundle/
 ln -svf $PWD/vimrc ~/.vimrc
 ln -svf $PWD/gvimrc ~/.gvimrc
 ln -svf $PWD/gitalias ~/.gitalias
